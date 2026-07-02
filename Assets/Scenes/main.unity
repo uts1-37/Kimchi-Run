@@ -1819,8 +1819,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d896e2feade4b9b880f33bdbad47dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  minSpawnDelay: 4
-  maxSpawnDelay: 7
+  minSpawnDelay: 3
+  maxSpawnDelay: 5
   gameObjects:
   - {fileID: 3177756057219047789, guid: acfdf7328af114323aebbb8afda524d9, type: 3}
   - {fileID: 2217611520696648611, guid: e413cc309fb5646518c321d069ef9a02, type: 3}
