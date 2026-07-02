@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
         {
             return 3f;
         }
-        float speed = 3f + (0.5f * Mathf.Floor(CalculateGameSpeed() / 10f));
+        float speed = 3f + (0.5f * Mathf.Floor(CalculateScore() / 10f));
         return Mathf.Min(speed , 20f);
     }
     // Update is called once per frame
